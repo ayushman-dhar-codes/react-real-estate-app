@@ -1,0 +1,8 @@
+{
+  "name": "react-social-media-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ayushman-dhar-codes/react-social-media-app.git",
+  "author": "Ayushman Dhar <ayushmandhar195@gmail.com>",
+  "license": "MIT"
+}
