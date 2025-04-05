@@ -23,7 +23,7 @@ function App() {
         <Hero />
         <Companies />
         <Residencies />
-        {/* <Value /> */}
+        <Value />
         <Contact fref = {contactRef}/>
         <GetStarted />
         <Footer />
