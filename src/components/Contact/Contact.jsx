@@ -3,6 +3,7 @@ import "./Contact.css";
 import { MdCall } from "react-icons/md";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import { HiChatBubbleBottomCenter } from "react-icons/hi2";
+import { MdOutlineMailOutline , MdOutlineLocationCity } from "react-icons/md";
 const Contact = ({fref}) => {
   return (
     <section className="c-wrapper" ref={fref}>
@@ -47,7 +48,7 @@ const Contact = ({fref}) => {
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
-                    <BsFillChatDotsFill size={25} />
+                    <MdOutlineMailOutline size={25} />
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">E-Mail</span>
@@ -60,7 +61,7 @@ const Contact = ({fref}) => {
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
-                    <HiChatBubbleBottomCenter size={25} />
+                    <MdOutlineLocationCity size={25} />
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Our Address</span>
