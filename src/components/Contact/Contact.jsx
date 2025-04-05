@@ -3,9 +3,9 @@ import "./Contact.css";
 import { MdCall } from "react-icons/md";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import { HiChatBubbleBottomCenter } from "react-icons/hi2";
-const Contact = () => {
+const Contact = ({fref}) => {
   return (
-    <section className="c-wrapper">
+    <section className="c-wrapper" ref={fref}>
       <div className="paddings innerWidth flexCenter c-container">
         <div className="flexColStart c-left">
           <span className="orangeText">Our Contacts</span>
@@ -24,7 +24,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Call</span>
-                    <span className="secondaryText">0123 123</span>
+                    <span className="secondaryText">+91 91234 56789</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Call Now</div>
@@ -37,7 +37,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Chat</span>
-                    <span className="secondaryText">0123 123</span>
+                    <span className="secondaryText">+91 98765 43210</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Chat Now</div>
@@ -50,8 +50,8 @@ const Contact = () => {
                     <BsFillChatDotsFill size={25} />
                   </div>
                   <div className="flexColStart detail">
-                    <span className="primaryText">Video Call</span>
-                    <span className="secondaryText">0123 123</span>
+                    <span className="primaryText">E-Mail</span>
+                    <span className="secondaryText">ayush1123@gmail.com</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Video Call Now</div>
@@ -63,11 +63,11 @@ const Contact = () => {
                     <HiChatBubbleBottomCenter size={25} />
                   </div>
                   <div className="flexColStart detail">
-                    <span className="primaryText">Message</span>
-                    <span className="secondaryText">0123 123</span>
+                    <span className="primaryText">Our Address</span>
+                    <span className="secondaryText">Flat No. 203, Rosewood Apartments, Sector 56, Gurgaon, Haryana – 122011</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Message Now</div>
+                <div className="flexCenter button">Visit Us</div>
               </div>
             </div>
           </div>
