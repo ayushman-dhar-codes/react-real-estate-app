@@ -1,9 +1,8 @@
 import React,{useState} from "react";
-import './Header.css'
+import './Header.css';
+import {Link} from "react-router-dom";
 export const SpecialButton = ({text,onClick = () => {
-
 }}) => {
-  
   const [hovered, setHovered] = React.useState(false);
   const transparentStyle = {
     position: 'relative',
@@ -31,7 +30,7 @@ const Header = ({onContactClick}) => {
   return (
     <section className="h-wrapper">
       <div className="flexCenter paddings innerWidth h-container">
-        <img src="./logo.png" alt="logo" width={150} />
+        <Link to="/"><img src="./logo.png" alt="logo" width={150} /></Link>
         <div className="flexCenter h-menu">
           <SpecialButton text = {"Residencies"} />
           <SpecialButton text= {"Our Value"} />

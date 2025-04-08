@@ -2,6 +2,7 @@ import React from "react";
 import "./Residencies.css";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
+import 'swiper/css/virtual';
 import data from "../../utils/slider.json";
 import { sliderSettings } from "../../utils/common";
 const Residencies = () => {
@@ -15,7 +16,7 @@ const Residencies = () => {
         <Swiper {...sliderSettings}>
         <SliderButtons />
           {data.map((card, i) => (
-            <SwiperSlide key={i}>
+            <SwiperSlide key={i} virtualIndex={i}>
               <div className="flexColStart r-card">
                 <img src={card.image} alt="home" />
                 <span className="secondaryText r-price">

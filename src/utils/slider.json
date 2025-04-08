@@ -1,38 +1,62 @@
 [
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "name": "Skyline Heights",
+    "price": "1,200,000",
+    "detail": "123 Main Street, New York, NY 10001",
+    "image": "https://img.freepik.com/free-photo/luxurious-villa-with-modern-architectural-design_23-2151694115.jpg?ga=GA1.1.347859460.1744020741&semt=ais_country_boost&w=740"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "name": "Lakeside Villa",
+    "price": "850,000",
+    "detail": "456 Lakeview Drive, Orlando, FL 32801",
+    "image": "https://img.freepik.com/premium-photo/home-house-exterior-design-showing-tropical-pool-villa-with-sun-bed_41487-564.jpg?ga=GA1.1.347859460.1744020741&semt=ais_country_boost&w=740"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "name": "Mountain Retreat",
+    "price": "950,000",
+    "detail": "789 Pinecone Lane, Denver, CO 80202",
+    "image": "https://img.freepik.com/free-photo/luxurious-villa-with-modern-architectural-design_23-2151694078.jpg?ga=GA1.1.347859460.1744020741&semt=ais_country_boost&w=740"
   },
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "name": "Urban Oasis",
+    "price": "1,500,000",
+    "detail": "101 Cityscape Blvd, San Francisco, CA 94103",
+    "image": "https://img.freepik.com/free-photo/luxurious-villa-with-modern-architectural-design_23-2151694085.jpg?ga=GA1.1.347859460.1744020741&semt=ais_country_boost&w=740"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "name": "Suburban Dream",
+    "price": "700,000",
+    "detail": "202 Maple Street, Austin, TX 78701",
+    "image": "https://img.freepik.com/free-photo/luxurious-villa-with-modern-architectural-design_23-2151694144.jpg?ga=GA1.1.347859460.1744020741&semt=ais_country_boost&w=740"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "name": "Coastal Escape",
+    "price": "1,100,000",
+    "detail": "303 Ocean Avenue, Miami, FL 33101",
+    "image": "https://img.freepik.com/free-photo/luxurious-villa-with-modern-architectural-design_23-2151694107.jpg?ga=GA1.1.347859460.1744020741&semt=ais_country_boost&w=740"
+  },
+  {
+    "name": "Countryside Manor",
+    "price": "650,000",
+    "detail": "404 Country Road, Nashville, TN 37201",
+    "image": "https://img.freepik.com/premium-photo/cozy-modern-house-with-garage-cobblestone-driveway-modern-architecture_116317-5584.jpg?ga=GA1.1.347859460.1744020741&semt=ais_country_boost&w=740"
+  },
+  {
+    "name": "Downtown Loft",
+    "price": "900,000",
+    "detail": "505 Loft Lane, Chicago, IL 60601",
+    "image": "https://img.freepik.com/premium-photo/beautiful-villa-relaxing-summer-vacation-modern-villa-with-private-harbor-summer-vacation-dreamy-destination-summer-vacation-villa-luxury-villa-perfect-summer-vacation_474717-169592.jpg?ga=GA1.1.347859460.1744020741&semt=ais_country_boost&w=740"
+  },
+  {
+    "name": "Desert Villa",
+    "price": "800,000",
+    "detail": "606 Desert Drive, Phoenix, AZ 85001",
+    "image": "https://img.freepik.com/premium-photo/beautiful-home-exterior-sunny-day-with-blue-sky_848676-4266.jpg?ga=GA1.1.347859460.1744020741&semt=ais_country_boost&w=740"
+  },
+  {
+    "name": "Historic Brownstone",
+    "price": "1,300,000",
+    "detail": "707 Heritage Row, Boston, MA 02101",
+    "image": "https://img.freepik.com/free-photo/design-house-modern-villa-with-open-plan-living-private-bedroom-wing-large-terrace-with-privacy_1258-169745.jpg?ga=GA1.1.347859460.1744020741&semt=ais_country_boost&w=740"
   }
 ]

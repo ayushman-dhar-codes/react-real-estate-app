@@ -30,8 +30,7 @@ const Value = () => {
 
           <Accordion
             className="accordion"
-            allowZeroExpanded={false}
-            preExpanded={[0]}
+            allowZeroExpanded={true}
           >
             {data.map((item, i) => (
               <AccordionItem key={i} uuid={i}>
@@ -53,7 +52,7 @@ const Value = () => {
                   </AccordionItemState>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                  <p className="secondaryText">{item.detail}</p>
+                  <span className="detail secondaryText">{item.detail}</span>
                 </AccordionItemPanel>
               </AccordionItem>
             ))}
